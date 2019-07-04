@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewKomuP"
+        android:layout_width="75dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewZaCoP"
+        android:layout_width="206dp"
+        android:layout_height="41dp"
+        android:fontFamily="casual"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewKomuP"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKomuP"
+        tools:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/textViewKwota"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewZaCoP"
+        app:layout_constraintTop_toBottomOf="@+id/textViewZaCoP" />
+
+    <Button
+        android:id="@+id/LiniaOdzielajaca"
+        android:layout_width="476dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/KolorButtonZarejestruj"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKwota"
+        tools:layout_editor_absoluteX="-30dp" />
+</android.support.constraint.ConstraintLayout>

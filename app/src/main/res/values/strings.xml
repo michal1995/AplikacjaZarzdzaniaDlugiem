@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AplikacjaZarządzaniaDlugiem</string>
+
+
+    <string name="zarejestruj">Zarejestruj</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="haslo">Haslo</string>
+    <string name="login">Login</string>
+    <string name="zmien_jezyk">Zmien Jezyk</string>
+</resources>

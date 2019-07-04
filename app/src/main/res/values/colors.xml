@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorCheckItem">#29fff4</color>
+    <color name="colorUnCheckItem">#8fc4c9</color>
+    <color name="kolorNaPlus">#73c638</color>
+    <color name="kolorNaMinus">#ee6b4e</color>
+    <color name="KolorTła">#1c1c26</color>
+    <color name="KolorBialy">#f8f8f8</color>
+    <color name="KolorButtonZarejestruj">#6e9705</color>
+    <color name="KolorTłaWierszy">#c3c2bb</color>
+    <color name="KolorTłaDrugi">#d5d5d8</color>
+
+
+</resources>

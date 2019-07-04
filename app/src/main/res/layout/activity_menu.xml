@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/KolorTła"
+    tools:context=".MenuActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/buttonDodajDlug"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="338dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="casual"
+        android:onClick="onClickDodajDlug"
+        android:text="Dodaj dług"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonWyswietlDlug"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="119dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:background="#00b774"
+        android:fontFamily="casual"
+        android:onClick="onClickWyswietlDlug"
+        android:text="Wyswietl dlugi"
+        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/buttonPotwierdzDlug"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDodajDlug" />
+
+    <Button
+        android:id="@+id/buttonPotwierdzDlug"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="188dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_orange_light"
+        android:fontFamily="casual"
+        android:onClick="onClickPotwierdzlDlug"
+        android:text="Potwierdz dlug"
+        android:textAppearance="@android:style/TextAppearance.Widget.PopupMenu.Small"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/buttonDodajDlug"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDodajDlug" />
+
+    <Button
+        android:id="@+id/buttonStatystyki"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="151dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:background="#c2c2c2"
+        android:fontFamily="casual"
+        android:onClick="onClickStatystyki"
+        android:text="Statystyki"
+        android:textAppearance="@android:style/TextAppearance.Widget.TextView.PopupMenu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPotwierdzDlug" />
+</android.support.constraint.ConstraintLayout>
