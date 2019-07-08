@@ -28,7 +28,7 @@ Simple app created with java and azure mobile service. Mobile app manages debt.
    
    - confirmation of debt
   
-    -display debt 
+   -display debt 
              
 
 
